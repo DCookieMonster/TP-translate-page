@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac127591-6181-4d04-ac82-1de8ade4c471" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/templates/base.html" afterPath="$PROJECT_DIR$/static/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translatePage/settings.py" afterPath="$PROJECT_DIR$/translatePage/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -79,8 +80,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/translatePage/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91701245" vertical-offset="1377" max-vertical-offset="2145">
-              <caret line="136" column="27" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.77178425" vertical-offset="1422" max-vertical-offset="2145">
+              <caret line="132" column="28" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1725">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -112,18 +123,6 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/translatePage/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="645">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-              <folding>
-                <element signature="e#623#664#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/translator/views.py" />
         <option value="$PROJECT_DIR$/static/templates/profilepage.html" />
         <option value="$PROJECT_DIR$/translatePage/wsgi.py" />
+        <option value="$PROJECT_DIR$/static/templates/base.html" />
         <option value="$PROJECT_DIR$/translatePage/settings.py" />
       </list>
     </option>
@@ -287,7 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static-only" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -660,7 +660,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437943477860</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="herokuapp3.1">
+      <created>1437943775662</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1437943775662</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -828,6 +834,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1725">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/translator/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3702" max-vertical-offset="4425">
@@ -840,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/translatePage/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91701245" vertical-offset="1377" max-vertical-offset="2145">
-          <caret line="136" column="27" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.77178425" vertical-offset="1422" max-vertical-offset="2145">
+          <caret line="132" column="28" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
           <folding />
         </state>
       </provider>
