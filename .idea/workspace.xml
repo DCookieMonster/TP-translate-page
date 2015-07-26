@@ -100,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/translatePage/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.19087137" vertical-offset="1407" max-vertical-offset="2130">
-              <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+              <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -696,7 +696,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437927255392</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="herokuapp2">
+      <created>1437927454701</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1437927454701</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,7 +748,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="herokuapp" />
-    <option name="LAST_COMMIT_MESSAGE" value="herokuapp" />
+    <MESSAGE value="herokuapp2" />
+    <option name="LAST_COMMIT_MESSAGE" value="herokuapp2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -856,7 +863,7 @@
     <entry file="file://$PROJECT_DIR$/translatePage/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19087137" vertical-offset="1407" max-vertical-offset="2130">
-          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
           <folding />
         </state>
       </provider>
