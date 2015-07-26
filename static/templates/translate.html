@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="../static/index.css">
+
+{#    <script src="//tinymce.cachefly.net/4.2/tinymce.min.js"></script>#}
+{#<script>tinymce.init({selector:'textarea'});</script>#}
+
+{%  endblock %}
+
+{% block content %}
+<div class="container">
+	<div class="login-container"  style="width: 100%;">
+
+            <div id="output"></div>
+{#            <div class="avatar"></div>#}
+        <div >
+<span style="font-family:helveticaneuew01-45ligh,sans-serif;"><span class="color_33"><span style="font-size:28px;">&lt;</span></span><span style="font-size:20px;"><span class="color_33">&nbsp;</span>Translate&nbsp;</span><span class="color_33"><span style="font-size:28px;">/&gt;</span></span></span>
+        </div>
+
+        <br>
+            <div class="form-box">
+
+                <div dir="ltr">
+                    <p style="text-align: justify">
+                                         {% autoescape off %}{{ txt }}{% endautoescape %}
+
+                    </p>
+                </div>
+                <br>
+            <div class="row">
+                <div class="col-md-4">
+                                    <a href="{{ link }}" target="_blank">See Google Translation For This Paragraph</a>
+
+                    </div>
+                                <div class="col-md-4">
+</div>
+                                                    <div class="col-md-4">
+                                                         <form action="{% url 'getFile' %}" method="post"> {% csrf_token %}
+                <input name="paraId" id="paraId" value="{{ id }}" type="hidden">
+                                                                <button id="close" class=" "   type="submit">Get The Docx File</button>
+
+            </form>
+                                                        </div>
+
+            </div><br>
+
+                <form action="{% url 'translate' %}" method="post"> {% csrf_token %}
+                    <textarea dir="rtl" name="txt-tran" id="txt-tran" type="text" placeholder="תרגם פה" style="width: 100%; max-width: 1000px; height: 100px"></textarea>
+                    <input name="id" hidden="hidden" id="id" type="text" value="{{ id }}">
+                    <br><br><div class="row">
+
+                        <div class="col-md-2 col-md-offset-5">
+
+                                                <button id="close" class="btn btn-info " style="width: 100%;"  type="submit">Submit</button>
+
+                            </div>
+                    </div>
+
+                </form>
+                            <div class="form-box">
+
+</div>
+</div>
+
+
+{%  endblock %}
