@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac127591-6181-4d04-ac82-1de8ade4c471" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translatePage/settings.py" afterPath="$PROJECT_DIR$/translatePage/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TP.iws" />
@@ -78,8 +79,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/translatePage/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4813278" vertical-offset="1407" max-vertical-offset="2130">
-              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="136" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.8547718" vertical-offset="1407" max-vertical-offset="2130">
+              <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -681,7 +682,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437943021638</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="herokuapp3">
+      <created>1437943258761</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1437943258761</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -730,7 +737,8 @@
     <MESSAGE value="herokuapp2" />
     <MESSAGE value="herokuapp2.1" />
     <MESSAGE value="herokuapp2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="herokuapp2.2" />
+    <MESSAGE value="herokuapp3" />
+    <option name="LAST_COMMIT_MESSAGE" value="herokuapp3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -859,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/translatePage/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4813278" vertical-offset="1407" max-vertical-offset="2130">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="136" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.8547718" vertical-offset="1407" max-vertical-offset="2130">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
           <folding />
         </state>
       </provider>
