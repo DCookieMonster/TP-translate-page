@@ -46,7 +46,7 @@
         <tr>
         <td>{{ name }}</td>
         <td>{{ code }}</td>
-        <td>{{ avg }}</td>
+        <td>{{ avg }}%</td>
         <td>
                <form action="{% url 'getFile' %}" method="post"> {% csrf_token %}
                 <input name="paraId" id="paraId" value="{{ id }}" type="hidden">

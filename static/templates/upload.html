@@ -18,8 +18,7 @@
 
         <br>
             <div class="form-box">
-               <form action="{% url 'upload' %}" method="post" enctype="multipart/form-data">
-            {% csrf_token %}
+               <form action="{% url 'upload' %}" method="post" enctype="multipart/form-data"> {% csrf_token %}
 
        {{ form | crispy }}
             <p><input  type="submit" value="Upload" /></p>

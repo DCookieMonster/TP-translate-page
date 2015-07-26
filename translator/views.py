@@ -260,7 +260,7 @@ def profile_page(request):
             if Translated_Paragraph.objects.filter(paraId=paragraph).exists():
                 count += 1.0
         avg = count/paragraphs.__len__()
-        statusList.append((paper.id,paper.name,paper.code,avg))
+        statusList.append((paper.id,paper.name,paper.code,avg*100))
 
     context = {
         'status': statusList,

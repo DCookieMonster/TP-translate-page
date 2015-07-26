@@ -1,0 +1,16 @@
+application: translatepage-1018
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: .*
+  script: translatePage.wsgi.application
+
+libraries:
+- name: django
+  version: 1.5
+
+env_variables:
+  DJANGO_SETTINGS_MODULE: 'translatePage.settings'
