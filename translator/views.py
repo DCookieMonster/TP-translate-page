@@ -275,7 +275,6 @@ def profile_page(request):
     }
     return render(request,'profilepage.html',context)
 
-
 # get the original File
 def get_translated_file(request):
     if request.method == 'POST':
