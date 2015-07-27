@@ -108,6 +108,13 @@ def register(request):
                         'Password don\'t match </div>',
             }
             return render_to_response("register.html",locals(),context)
+        if User.objects.filter(username=request.POST['username']).exists():
+            context={
+                'error':'<div class="alert alert-warning alert-dismissible" role="alert">'
+                        ' <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>'
+                        'Username already exists in the system </div>',
+            }
+            return render(request,'register.html',context)
         user = User.objects.create_user(smart_unicode(request.POST.get('username')), smart_unicode(request.POST.get('email')), smart_unicode(request.POST.get('password')))
         # user = User()
         # user.username=smart_unicode(request.POST.get('username'))
@@ -140,9 +147,9 @@ def set_cookie(response, key, value, days_expire = 7):
   response.set_cookie(key, value, max_age=max_age, expires=expires, domain=settings.SESSION_COOKIE_DOMAIN, secure=settings.SESSION_COOKIE_SECURE or None)
 
 def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
-    code= ''.join(random.choice(chars) for _ in range(size))
+    code= ''.join(random.choice(chars) for _ in range(size)).lower()
     while(Paper.objects.filter(code=code).exists()):
-        code= ''.join(random.choice(chars) for _ in range(size))
+        code= ''.join(random.choice(chars) for _ in range(size)).lower()
     return code
 
 

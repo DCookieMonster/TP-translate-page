@@ -18,7 +18,7 @@ class Paper(models.Model):
     name=models.CharField(max_length=150,null=False,blank=False)
     userId=models.ForeignKey(User)
     code=models.CharField(max_length=150,null=False,blank=False,unique=True)
-    docx=models.FileField(blank=True)
+    docx=models.FileField(blank=True,upload_to='uploads/%Y/%m/')
 
     def __unicode__(self):
         return smart_unicode(self.name)
