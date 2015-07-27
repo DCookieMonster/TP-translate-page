@@ -124,6 +124,7 @@ def register(request):
         user.last_name=smart_unicode(request.POST.get('lname'))
         # user.timestamp=smart_unicode(datetime.datetime.today())
         user.save()
+        user = authenticate(username=request.POST.get('username'),password=request.POST.get('password'))
         login(request, user)
         context={
             'title': "Thank You for Registered!",
